@@ -131,7 +131,7 @@
 <h2>📌 Future Enhancements</h2>
 <ul>
   
-  <li>Improve <strong>Firmware</strong>with AUTOSAR standards.</li>
+  <li>Improve <strong>Firmware</strong> with AUTOSAR standards.</li>
   <li>Improve <strong>lane detection</strong> with AI-powered models.</li>
   <li>Implement <strong>wireless firmware</strong> update system for V2V communication updates.</li>
   <li>Integrate <strong>vehicle-to-infrastructure (V2I)</strong> communication for enhanced traffic management.</li>
