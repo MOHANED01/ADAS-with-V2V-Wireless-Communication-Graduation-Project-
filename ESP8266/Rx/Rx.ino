@@ -41,6 +41,7 @@ void setup() {
 }
 
 void loop() {
+  /*its just an additional feature but w.r.t STM--> Unidirectional communication */
     uint8_t Transmitted_Data=0;
   
    /*recieving data from UART*/
@@ -56,3 +57,4 @@ void loop() {
    }
    Transmitted_Data=0;
 }
+
