@@ -79,7 +79,7 @@
   <li><strong>Vehicle 1 (Sender):</strong>
     <ul>
       <li>Collects data (sign & drowsiness detection) from camera using RPI.</li>
-      <li>Displays real-time camera on a user interface (sign detectiom, drowsiness alert).</li>
+      <li>Displays real-time camera on a user interface (sign detection, drowsiness alert).</li>
       <li>Enables the driver to interact with the system (Music with Bluetooth Mobile connection) and see warnings (sign detectiom, drowsiness alert).</li>
       <li>Display data using <strong>GUI Screen</strong>.</li>
       <li>Send data to STM32 via <strong>CAN</strong> network.</li>
