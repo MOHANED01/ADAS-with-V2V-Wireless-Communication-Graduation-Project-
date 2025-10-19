@@ -9,7 +9,7 @@
 <h2>📌 Project Overview</h2>
 
   - The project aims to create an embedded system with **Vehicle-to-Vehicle (V2V)** communication for data exchange and **advanced safety features**.  
-  - The system supports **traffic sign recognition**, **driver drowsiness detection**, **lane departure warnings**, and **adaptive cruise control**.
+  - The system supports **traffic sign recognition**, **driver drowsiness detection**, and **adaptive cruise control**.
 <hr />
 
 <h3>📌 Key Objectives</h3>
@@ -45,11 +45,10 @@
 
 <h2>📌 Features</h2>
 <ul>
-  <li><strong>Vehicle-to-Vehicle (V2V) Communication:</strong> ESP8266 Wi-Fi modules enable data exchange (speed, lane status, drowsiness detection) between two vehicles in real time.</li>
+  <li><strong>Vehicle-to-Vehicle (V2V) Communication:</strong> ESP8266 Wi-Fi modules enable data exchange (speed, lane status, drowsiness detection) between two vehicles.</li>
   <li><strong>Traffic Sign Recognition:</strong> Machine learning-based recognition of traffic signs through camera images processed on **Raspberry Pi** and communicated between 2 vehicles.</li>
   <li><strong>Driver Drowsiness Detection:</strong> Detects facial expressions and eye movements using a camera to monitor driver drowsiness. Alerts are triggered if driver drowsiness is detected.</li>
-  <li><strong>Lane Departure Warning:</strong> Monitors lane markings and provides alerts if the driver drifts from the lane.</li>
-  <li><strong>Adaptive Cruise Control:</strong> Automatically adjusts vehicle speed based on proximity to other vehicles using V2V data.</li>
+  <li><strong>Adaptive Cruise Control:</strong> Automatically adjusts vehicle speed based on Ultrasonic, and Lane Detection sensors.</li>
   <li><strong>Raspberry Pi GUI:</strong> Real-time visualization of sensor data (speed, music, lane status, drowsiness) displayed on a user-friendly interface.</li>
 </ul>
 
