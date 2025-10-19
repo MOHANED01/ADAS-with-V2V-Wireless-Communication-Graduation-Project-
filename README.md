@@ -1,6 +1,6 @@
 <h1> ADAS with V2V Wireless Communication </h1>
 
-  This project demonstrates an **Advanced Driver Assistance System (ADAS)**, utilizing **Vehicle-to-Vehicle (V2V) wireless communication** to enhance safety, navigation, and driver assistance.  
+  This project demonstrates an **Advanced Driver Assistance System (ADAS)**, utilizing **Vehicle-to-Vehicle (V2V) wireless communication** to enhance safety, and driver assistance.  
   The system uses **STM32 microcontrollers**, **ESP8266 Wi-Fi modules**, and **Raspberry Pi** to exchange real-time data, detect traffic signs, monitor drowsiness, and assist with lane detection.
 
 
