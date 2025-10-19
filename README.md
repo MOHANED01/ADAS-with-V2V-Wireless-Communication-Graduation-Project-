@@ -62,7 +62,7 @@
     <tr><th>Component</th><th>Details</th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Microcontrollers</strong></td><td>STM32F4, STM32F103</td></tr>
+    <tr><td><strong>Microcontrollers</strong></td><td>STM32F4, STM32F103, and RPI</td></tr>
     <tr><td><strong>Wireless Module</strong></td><td>ESP8266 (Wi-Fi)</td></tr>
     <tr><td><strong>Camera</strong></td><td>Raspberry Pi Camera Module (for drowsiness detection &  traffic sign)</td></tr>
     <tr><td><strong>Operating System</strong></td><td>Costumized OS using YOCTO (for GUI)</td></tr>
