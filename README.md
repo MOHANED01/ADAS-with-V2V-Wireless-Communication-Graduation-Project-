@@ -8,18 +8,18 @@
 
 <h2>📌 Project Overview</h2>
 
-  The project aims to create an embedded system with **Vehicle-to-Vehicle (V2V)** communication for data exchange and **advanced safety features**.  
-  The system supports **traffic sign recognition**, **driver drowsiness detection**, **lane departure warnings**, and **adaptive cruise control**.
+  - The project aims to create an embedded system with **Vehicle-to-Vehicle (V2V)** communication for data exchange and **advanced safety features**.  
+  - The system supports **traffic sign recognition**, **driver drowsiness detection**, **lane departure warnings**, and **adaptive cruise control**.
 <hr />
 
 <h3>📌 Key Objectives</h3>
-<ul>
-  <li>Implement **Vehicle-to-Vehicle (V2V)** communication using **ESP8266 Wi-Fi modules** for data transfer.</li>
+
+  - Implement **Vehicle-to-Vehicle (V2V)** communication using **ESP8266 Wi-Fi modules** for data transfer.
   <li>Develop **machine learning-based traffic sign recognition** for real-time vehicle feedback.</li>
   <li>Implement **driver drowsiness detection** through facial expression monitoring.</li>
   <li>Use **Raspberry Pi** for real-time monitoring and GUI visualization of the system's status.</li>
   <li>Deploy **STM32 microcontrollers** to manage communication and control systems.</li>
-</ul>
+
 
 <hr />
 
