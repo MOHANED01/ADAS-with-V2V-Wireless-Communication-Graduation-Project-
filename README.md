@@ -31,7 +31,7 @@
         │  ESP8266 (ESP-NOW Protocol)           │         │  ESP8266 (ESP-NOW Protocol)           │
         │  Vehicle Sensors                      │         └──────────────────┬────────────────────┘
         │  (Speed,Ultrasonic,Lane detect)       │                            │ 
-        │    Vehicle Actuators(DC Motors)       │                            ▲                             
+        │  Vehicle Actuators(DC Motors)         │                            ▲                             
         └────────────────────────┬──────────────┘                            │
                                  │                                     [Raspberry Pi GUI, Camera]      
                                  ▼                                           
