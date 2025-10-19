@@ -42,7 +42,7 @@
 
 <hr />
 
-<h2>🧩 Features</h2>
+<h2>📌 Features</h2>
 <ul>
   <li><strong>Vehicle-to-Vehicle (V2V) Communication:</strong> ESP8266 Wi-Fi modules enable data exchange (speed, lane status, drowsiness detection) between two vehicles in real time.</li>
   <li><strong>Traffic Sign Recognition:</strong> Machine learning-based recognition of traffic signs through camera images processed on **Raspberry Pi** and communicated between vehicles.</li>
