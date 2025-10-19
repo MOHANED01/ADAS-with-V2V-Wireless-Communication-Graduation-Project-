@@ -79,8 +79,10 @@
   <li><strong>Vehicle 1 (Sender):</strong>
     <ul>
       <li>Collects data (sign & drowsiness detection) from camera using RPI.</li>
+      <li>Displays real-time camera on a user interface (sign detectiom, drowsiness alert).</li>
+      <li>Enables the driver to interact with the system (Music with Bluetooth Mobile connection) and see warnings (sign detectiom, drowsiness alert).</li>
       <li>Display data using <strong>GUI Screen</strong>.</li>
-      <li>Send data to STM32 via <strong>CAN</strong>network.</li>
+      <li>Send data to STM32 via <strong>CAN</strong> network.</li>
       <li>Transmits data to Vehicle 2 via <strong>ESP8266</strong> module.</li>
     </ul>
   </li>
@@ -90,85 +92,52 @@
       <li>Uses the data to adjust vehicle speed, trigger warnings, and control vehicle systems.</li>
     </ul>
   </li>
-  <li><strong>Raspberry Pi GUI:</strong>
-    <ul>
-      <li>Displays real-time sensor data on a user interface (e.g., speed, lane detection, drowsiness alert).</li>
-      <li>Enables the driver to interact with the system and see warnings (lane departure, drowsiness).</li>
-    </ul>
-  </li>
+
 </ol>
 
 <hr />
 
-<h2>🧪 Testing &amp; Validation</h2>
+<h2>📌 Testing &amp; Validation</h2>
 <ul>
-  <li>Tested V2V communication for data exchange between vehicles using **ESP8266 Wi-Fi modules**.</li>
-  <li>Validated **drowsiness detection** via facial recognition running on the Raspberry Pi.</li>
-  <li>Checked accuracy of **lane detection** with various road conditions.</li>
-  <li>Tested **adaptive cruise control** with real-time speed data from V2V communication.</li>
+  <li>Tested V2V communication for data exchange between vehicles using <strong>ESP8266 Wi-Fi modules</strong>.</li>
+  <li>Validated <strong>drowsiness detection</strong> via facial recognition running on the Raspberry Pi.</li>
+  <li>Checked accuracy of <strong>lane detection</strong> with various road conditions.</li>
+  <li>Tested <strong>adaptive cruise control</strong> with  speed data displayed on LCD.</li>
 </ul>
 
 <hr />
 
-<h2>🧰 Build &amp; Run Instructions</h2>
+<h2>📌 Build &amp; Run Instructions</h2>
 
 <h3>Requirements</h3>
 <ul>
-  <li>STM32CubeIDE / Atmel Studio (for STM32 programming)</li>
+  <li>STM32CubeIDE/Eclipse(for STM32 programming) </li>
+  <li>ArduinoIDE(for ESP8266 programming) </li>
   <li>Raspberry Pi (for GUI and data processing)</li>
-  <li>ESP8266 Wi-Fi modules</li>
   <li>OpenCV / TensorFlow (for camera processing on Raspberry Pi)</li>
 </ul>
 
 <h3>Steps</h3>
 <ol>
-  <li>Flash the **vehicle1** (Sender) firmware to the first STM32 using STM32CubeIDE.</li>
-  <li>Flash the **vehicle2** (Receiver) firmware to the second STM32 using STM32CubeIDE.</li>
-  <li>Set up the **ESP8266 Wi-Fi modules** for communication between vehicles.</li>
-  <li>Set up the **Raspberry Pi** with the required libraries (OpenCV, TensorFlow) and configure the GUI application.</li>
+  <li>Flash the <strong>vehicle1</strong> (Tx) firmware to the first STM32 using STM32CubeIDE.</li>
+   <li>Set up the <strong>Raspberry Pi</strong> with the required libraries (OpenCV, TensorFlow) and configure the GUI application.</li>
+  <li>Flash the <strong>vehicle2</strong> (Rx) firmware to the second STM32 using STM32CubeIDE.</li>
+  <li>flash the <strong>ESP8266 Wi-Fi modules</strong> with a new Firware for both (Tx & Rx).</li>
   <li>Test communication and interaction by running both vehicles and the Raspberry Pi system.</li>
 </ol>
 
 <hr />
 
-<h2>📁 Example Run</h2>
-<pre><code>Vehicle 1: "Sending data: Speed: 60 km/h, Lane: Left, Drowsiness: Alert"
-Vehicle 2: "Received data from Vehicle 1: Speed: 60 km/h, Lane: Left, Drowsiness: Alert"
-Vehicle 2: "Adjusting speed and enabling lane-keeping assistance"
-Raspberry Pi: "Displaying data: Speed: 60 km/h, Lane: Left, Drowsiness Alert"
-</code></pre>
-
-<hr />
-
-<h2>🚀 Future Enhancements</h2>
+<h2>📌 Future Enhancements</h2>
 <ul>
-  <li>Improve **lane detection** with AI-powered models.</li>
-  <li>Implement **wireless firmware update** system for V2V communication updates.</li>
-  <li>Integrate **vehicle-to-infrastructure (V2I)** communication for enhanced traffic management.</li>
-  <li>Develop **cross-vehicle communication protocols** for seamless data transfer across various platforms.</li>
+  
+  <li>Improve <strong>Firmware</strong>with AUTOSAR standards.</li>
+  <li>Improve <strong>lane detection</strong> with AI-powered models.</li>
+  <li>Implement <strong>wireless firmware</strong> update system for V2V communication updates.</li>
+  <li>Integrate <strong>vehicle-to-infrastructure (V2I)</strong> communication for enhanced traffic management.</li>
+
 </ul>
 
 <hr />
 
-<h2>📚 References</h2>
-<ul>
-  <li>STM32 Reference Manual</li>
-  <li>ESP8266 Datasheet</li>
-  <li>OpenCV Documentation (Lane Detection)</li>
-  <li>TensorFlow Documentation (Drowsiness Detection)</li>
-</ul>
 
-<hr />
-
-<h2>👨‍💻 Author</h2>
-<p>
-  <strong>Mohaned Hossam</strong><br />
-  Embedded Software Engineer<br />
-  📧 <a href="mailto:mohanedtohamy444@gmail.com">mohanedtohamy444@gmail.com</a><br />
-  🔗 <a href="https://www.linkedin.com/in/mohaned-hossam-8593041b3">LinkedIn</a><br />
-  💻 <a href="https://github.com/MOHANED01">GitHub</a>
-</p>
-
-<hr />
-
-<p><strong>⭐ “Enhancing driver safety through intelligent communication and real-time control.”</strong></p>
