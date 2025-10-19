@@ -25,10 +25,10 @@
 
 <h2>📌 System Architecture</h2>
 <pre><code>        ┌────────────────────────────────────────┐         ┌────────────────────────────────────────┐
-        │          Vehicle 1 (Rx)     │         │          Vehicle 2 (Tx)         │
+        │          Vehicle 1 (Rx)     │         │                     Vehicle 2 (Tx)         
         │ ───────────────────────────────────── │         │ ───────────────────────────────────── │
-        │  STM32 (Sensors, Control)            │          │  STM32 (CAN-ESP Gateway)            │
-        │  ESP8266 (ESP-NOW Protocol)       │             │  ESP8266 (ESP-NOW Protocol)       │
+        │  STM32 (Sensors, Control)             │         │  STM32 (CAN-ESP Gateway)              │
+        │  ESP8266 (ESP-NOW Protocol)           │         │  ESP8266 (ESP-NOW Protocol)           │
         │  Vehicle Sensors (Speed,Ultrasonic,Lane detect) │       
         └────────────────────────┬──────────────┘         └──────────────────┬────────────────────┘
                                  │                                           ▲
