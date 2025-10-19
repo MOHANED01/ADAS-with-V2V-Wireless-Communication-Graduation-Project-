@@ -23,20 +23,20 @@
 
 <hr />
 
-<h2>⚙️ System Architecture</h2>
+<h2>📌 System Architecture</h2>
 <pre><code>        ┌────────────────────────────────────────┐         ┌────────────────────────────────────────┐
-        │          Vehicle 1 (Transmitter)     │         │          Vehicle 2 (Receiver)         │
+        │          Vehicle 1 (Rx)     │         │          Vehicle 2 (Tx)         │
         │ ───────────────────────────────────── │         │ ───────────────────────────────────── │
-        │  STM32 (Sensors, Control)            │         │  STM32 (Sensors, Control)            │
-        │  ESP8266 (Wi-Fi Communication)       │         │  ESP8266 (Wi-Fi Communication)       │
-        │  Vehicle Sensors (Speed, Camera, etc) │         │  Vehicle Sensors (Speed, Camera, etc) │
+        │  STM32 (Sensors, Control)            │         │  STM32 (CAN-ESP Gateway)            │
+        │  ESP8266 (ESP-NOW Protocol)       │         │  ESP8266 (ESP-NOW Protocol)       │
+        │  Vehicle Sensors (Speed,Ultrasonic,Lane detect) │       
         └────────────────────────┬──────────────┘         └────────────────────────┬──────────────┘
-                                 │                                 │
-                                 ▼                                 ▼
-                         [V2V Wireless Communication]           [Raspberry Pi GUI]
-                                 │
-                                 ▼
-                     [Real-time Traffic Data Display]
+                                 │                                 ▲
+                                 ▼                                 │
+             [Real-time Traffic Data Display]                 [Raspberry Pi GUI, Camera]
+                                 
+                                 
+                     
 </code></pre>
 
 <hr />
