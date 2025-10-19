@@ -14,11 +14,11 @@
 
 <h3>📌 Key Objectives</h3>
 
- -Implement **Vehicle-to-Vehicle (V2V)** communication using **ESP8266 Wi-Fi modules** for data transfer.
- -Develop **machine learning-based traffic sign recognition** for real-time vehicle feedback.
- -Implement **driver drowsiness detection** through facial expression monitoring.
- -Use **Raspberry Pi** for real-time monitoring and GUI visualization of the system's status.
- -Deploy **STM32 microcontrollers** to manage communication and control systems.
+ - Implement **Vehicle-to-Vehicle (V2V)** communication using **ESP8266 Wi-Fi modules** for data transfer.
+ - Develop **machine learning-based traffic sign recognition** for real-time vehicle feedback.
+ - Implement **driver drowsiness detection** through facial expression monitoring.
+ - Use **Raspberry Pi** for real-time monitoring and GUI visualization of the system's status.
+ - Deploy **STM32 microcontrollers** to manage communication and control systems.
 
 
 <hr />
