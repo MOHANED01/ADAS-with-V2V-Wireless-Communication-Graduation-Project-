@@ -65,7 +65,7 @@
     <tr><td><strong>Microcontrollers</strong></td><td>STM32F4, STM32F103, and RPI</td></tr>
     <tr><td><strong>Wireless Module</strong></td><td>ESP8266 (Wi-Fi)</td></tr>
     <tr><td><strong>Camera</strong></td><td>Raspberry Pi Camera Module (for drowsiness detection &  traffic sign)</td></tr>
-    <tr><td><strong>Operating System</strong></td><td>Costumized OS using YOCTO (for GUI)</td></tr>
+    <tr><td><strong>Operating System</strong></td><td>Costumized OS using YOCTO </td></tr>
     <tr><td><strong>Programming Languages</strong></td><td>Embedded C (STM32), Python (Raspberry Pi), bash (Costumization)</td></tr>
     <tr><td><strong>Communication Protocol</strong></td><td>USART, ESP-NOW (ESP8266), CAN Network</td></tr>
     <tr><td><strong>Tools</strong></td><td>STM32CubeIDE, Arduino IDE, Raspberry Pi, OpenCV (for lane detection), TensorFlow (for drowsiness detection)</td></tr>
